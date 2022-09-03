@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #141f40;
+    height: 100px;
+    width: 400px;
+}
+
+.main {
+    height: 250px;  
+    width: 400px;
+    display: flex;
+}
+
+.left {
+    background-color: #80dfa8;
+    height: 250px;
+    width: 150px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.left1 {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+}
+
+.left2 {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+
+.container_right {
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+}
+
+.right_btm {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+
+.footer {
+    background-color: #d98d30;
+    height: 100px;
+    width: 400px;
+}
+
+@media screen and (max-width: 767px){
+    .header {
+        max-width: 300px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main {
+        max-width: 300px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left {
+        max-width: 100px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right {
+        max-width: 200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right_btm {
+        max-width: 200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .footer {
+        max-width: 300px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 479px) { 
+    .header {
+        max-width: 150px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main {
+        max-width: 150px;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .left {
+        max-width: 150px;
+        width: 100%;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .container_right {
+        max-width: 150px;
+        width: 100%;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right_btm {
+        max-width: 150px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        max-width: 150px;
+        width: 100%;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
